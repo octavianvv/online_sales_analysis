@@ -11,3 +11,4 @@ product_manager.add_product(Product("Headphones", 200.99, 8))
 
 product_manager.display_all_products()
 print("Total value of products:", product_manager.total_value_of_products())
+#product_manager.product_removal("Camera")
