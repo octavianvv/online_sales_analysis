@@ -9,8 +9,10 @@ class Product:
         
         
     def update_quantity(self,new_quantity):
-        self.quantity = new_quantity
-        print("Quantity updated to:",self.quantity)
+        self.quantity+=new_quantity
+        if self.quantity<0:
+            self.quantity=0
+            print("Quantity cannot be negative!")
         
     
         
