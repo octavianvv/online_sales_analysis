@@ -8,3 +8,7 @@ It provides a detailed analysis of online sales using data from different source
 git clone https://github.com/octavianvv/online_sales_analysis.git
 
 
+## class Product
+## class ProductManager
+## class Cart
+## main.py
